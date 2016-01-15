@@ -1,0 +1,30 @@
+body {
+    font-family: Calibri;
+}
+
+body > div {
+    width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    width: 250px;
+}
+
+input {
+    width: 200px;
+}
+
+form > div {
+    margin: 5px;
+}
+
+span {
+    font-size: 0.9em;
+    color: red;
+}
+
+.error {
+    border-color: #ff6b68;
+}

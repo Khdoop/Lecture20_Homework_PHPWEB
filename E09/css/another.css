@@ -1,0 +1,13 @@
+body > div {
+    width: 200px;
+    margin: 0 auto;
+    font-family: Calibri;
+}
+
+body > div > div div {
+    display: inline-block;
+}
+
+.label {
+    width: 80px;
+}

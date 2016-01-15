@@ -1,0 +1,113 @@
+body {
+    font-family: Calibri;
+    background-color: #c1eeff;
+}
+
+body > div {
+    width: 500px;
+    margin: 0 auto;
+}
+
+form > div {
+    width: 380px;
+    margin: 5px auto;
+}
+
+form {
+    text-align: center;
+}
+
+.wrongLetters {
+    width: 500px;
+    height: 25px;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: red;
+}
+
+#image {
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+}
+
+.slice00 {
+    background-image: url("../images/slice00.png");
+}
+
+.slice01 {
+    background-image: url("../images/slice01.png");
+}
+
+.slice02 {
+    background-image: url("../images/slice02.png");
+}
+
+.slice03 {
+    background-image: url("../images/slice03.png");
+}
+
+.slice04 {
+    background-image: url("../images/slice04.png");
+}
+
+.slice05 {
+    background-image: url("../images/slice05.png");
+}
+
+.slice06 {
+    background-image: url("../images/slice06.png");
+}
+
+.slice07 {
+    background-image: url("../images/slice07.png");
+}
+
+.slice08 {
+    background-image: url("../images/slice08.png");
+}
+
+.slice09 {
+    background-image: url("../images/slice09.png");
+}
+
+.slice10 {
+    background-image: url("../images/slice10.png");
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    font-size: 1.3em;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+label:hover {
+    background: #54c5ff;
+}
+
+input[type="radio"]:checked + label {
+    background: #54c5ff;
+}
+
+.word {
+    letter-spacing: 2px;
+}
+
+button > a {
+    text-decoration: none;
+    color: black;
+}
+
+.colorMe {
+    background: #1a9cff;
+    padding: 5px;
+    color: white;
+}
